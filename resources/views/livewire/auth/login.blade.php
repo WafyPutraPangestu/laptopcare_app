@@ -49,7 +49,7 @@
                         style="width:100%;background:#0d1018;border:1px solid #1e2330;border-radius:10px;padding:13px 16px;font-size:14px;color:#e2e6f0;outline:none;box-sizing:border-box;transition:border-color 0.2s,box-shadow 0.2s;"
                         placeholder="Masukkan username Anda"
                         onfocus="this.style.borderColor='#4f8ef7';this.style.boxShadow='0 0 0 3px rgba(79,142,247,0.12)'"
-                        onblur="this.style.borderColor='#1e2330';this.style.boxShadow='none'" required>
+                        onblur="this.style.borderColor='#1e2330';this.style.boxShadow='none'">
                     @error('username')
                         <p class="mt-2 text-sm" style="color:#f7564f;">{{ $message }}</p>
                     @enderror
@@ -63,7 +63,7 @@
                         style="width:100%;background:#0d1018;border:1px solid #1e2330;border-radius:10px;padding:13px 16px;font-size:14px;color:#e2e6f0;outline:none;box-sizing:border-box;transition:border-color 0.2s,box-shadow 0.2s;"
                         placeholder="••••••••"
                         onfocus="this.style.borderColor='#4f8ef7';this.style.boxShadow='0 0 0 3px rgba(79,142,247,0.12)'"
-                        onblur="this.style.borderColor='#1e2330';this.style.boxShadow='none'" required>
+                        onblur="this.style.borderColor='#1e2330';this.style.boxShadow='none'">
                     @error('password')
                         <p class="mt-2 text-sm" style="color:#f7564f;">{{ $message }}</p>
                     @enderror

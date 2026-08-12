@@ -522,7 +522,7 @@
                             Selesaikan Tiket
                         </span>
                         <span wire:loading wire:target="simpanPerbaikan"
-                            style="display: flex; align-items: center; gap: 0.375rem;">
+                            style="display: none; align-items: center; gap: 0.375rem;">
                             <svg style="animation: spin 1s linear infinite;" width="13" height="13"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round"

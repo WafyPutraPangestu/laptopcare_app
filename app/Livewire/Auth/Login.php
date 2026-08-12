@@ -31,7 +31,7 @@ class Login extends Component
             if ($role === 'Kepala_IT') {
                 return redirect()->route('kepala.dashboard');
             } elseif ($role === 'Teknisi') {
-                return redirect()->route('teknisi.dashboard');
+                return redirect()->route('teknisi.jadwal.index');
             } else {
                 return redirect()->route('user.dashboard');
             }

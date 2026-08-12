@@ -51,6 +51,9 @@ Route::middleware(['kepala_it'])->group(function () {
     Route::get('/kepala/merek', \App\Livewire\Kepala\Merek\Index::class)->name('kepala.merek.index');
     Route::get('/kepala/merek/create', \App\Livewire\Kepala\Merek\Create::class)->name('kepala.merek.create');
     Route::get('/kepala/merek/{merek}/edit', \App\Livewire\Kepala\Merek\Edit::class)->name('kepala.merek.edit');
+    Route::get('/kepala/komponen', \App\Livewire\Kepala\Komponen\Index::class)->name('kepala.komponen.index');
+    Route::get('/kepala/komponen/create', \App\Livewire\Kepala\Komponen\Create::class)->name('kepala.komponen.create');
+    Route::get('/kepala/komponen/{komponen}/edit', \App\Livewire\Kepala\Komponen\Edit::class)->name('kepala.komponen.edit');
     Route::get('/kepala/user', UserIndex::class)->name('kepala.user.index');
     Route::get('/kepala/user/create', UserCreate::class)->name('kepala.user.create');
     Route::get('/kepala/user/{user}/edit', UserEdit::class)->name('kepala.user.edit');

@@ -54,6 +54,17 @@
                         </svg>
                         Merek
                     </a>
+                    <a href="{{ route('kepala.komponen.index') }}"
+                        class="ap-nav-link {{ request()->routeIs('kepala.komponen.*') ? 'is-active' : '' }}" wire:navigate>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <rect x="2" y="2" width="20" height="8" rx="2" ry="2" />
+                            <rect x="2" y="14" width="20" height="8" rx="2" ry="2" />
+                            <line x1="6" y1="6" x2="6.01" y2="6" />
+                            <line x1="6" y1="18" x2="6.01" y2="18" />
+                        </svg>
+                        Komponen
+                    </a>
                     <a href="{{ route('kepala.laptop.index') }}"
                         class="ap-nav-link {{ request()->routeIs('kepala.laptop.index*') ? 'is-active' : '' }}"
                         wire:navigate>
